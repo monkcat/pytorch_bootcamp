@@ -1,0 +1,11 @@
+2025-07-20 04:41:11,439 INFO    MainThread:230407 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /workspace/pytorch_bootcamp/wandb/run-20250720_044111-441ekxen/logs/debug.log
+2025-07-20 04:41:11,439 INFO    MainThread:230407 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /workspace/pytorch_bootcamp/wandb/run-20250720_044111-441ekxen/logs/debug-internal.log
+2025-07-20 04:41:11,439 INFO    MainThread:230407 [wandb_init.py:init():830] calling init triggers
+2025-07-20 04:41:11,439 INFO    MainThread:230407 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-07-20 04:41:11,439 INFO    MainThread:230407 [wandb_init.py:init():871] starting backend
+2025-07-20 04:41:11,440 INFO    MainThread:230407 [wandb_init.py:init():874] sending inform_init request
+2025-07-20 04:41:11,441 INFO    MainThread:230407 [wandb_init.py:init():882] backend started and connected
+2025-07-20 04:41:11,443 INFO    MainThread:230407 [wandb_run.py:_label_probe_notebook():1304] probe notebook
+2025-07-20 04:41:11,445 INFO    MainThread:230407 [wandb_init.py:init():953] updated telemetry
+2025-07-20 04:41:11,452 INFO    MainThread:230407 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout

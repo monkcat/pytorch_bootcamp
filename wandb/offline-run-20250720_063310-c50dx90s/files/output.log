@@ -1,0 +1,73 @@
+✅ SUCCESS: wandb offline mode initialized!
+   Project: pytorch_bootcamp
+   Run ID: c50dx90s
+   📁 Data saved locally, sync later with: wandb sync
+==================================================
+💡 Next: You can now use wandb.log() to track experiments!
+[34m[1mwandb[39m[22m: Currently logged in as: [33mewogus125[39m ([33mjh38[39m) to [32mhttps://api.wandb.ai[39m. Use [1m`wandb login --relogin`[22m to force relogin
+🚀 wandb Usage Examples
+========================================
+✅ Config logged to wandb
+✅ Example metrics logged
+✅ log_layer_timing() function defined
+✅ log_model_info() function defined
+========================================
+💡 Ready to track your experiments!
+📊 Use log_layer_timing() with SafeLayerDeviceController
+📈 Use log_model_info() for model analysis
+🔍 Check results: wandb.run.url (when online)
+🚀 wandb Usage Examples
+========================================
+✅ Config logged to wandb
+✅ Example metrics logged
+✅ log_layer_timing() function defined
+✅ log_model_info() function defined
+========================================
+💡 Ready to track your experiments!
+📊 Use log_layer_timing() with SafeLayerDeviceController
+📈 Use log_model_info() for model analysis
+🔍 Check results: wandb.run.url (when online)
+🔬 EXPERIMENT: Device Control with wandb Tracking
+=======================================================
+Model: squeezenet
+Number of modules: 68
+number of leaf layers: 57
+----------------------------------------
+Model: googlenet
+Number of modules: 224
+number of leaf layers: 130
+----------------------------------------
+Model: mobilenet
+Number of modules: 213
+number of leaf layers: 141
+----------------------------------------
+Model: mnasnet
+Number of modules: 182
+number of leaf layers: 141
+----------------------------------------
+🔬 EXPERIMENT: Device Control with wandb Tracking
+=======================================================
+📊 Logging model information...
+   Leaf layers: 57
+   Total modules: 68
+🧪 Running 3 experiments...
+🔬 Experiment: all_gpu
+------------------------------
+   ✅ Success: 21.30ms total
+      CPU time: 0.00ms
+      GPU time: 9.65ms
+      Ratio: 0.00
+Restoring model to original state...
+Model restored to original devices
+All hooks removed and model restored!
+🔬 Experiment: mixed_1
+------------------------------
+   ✅ Success: 13.70ms total
+      CPU time: 2.95ms
+      GPU time: 8.27ms
+      Ratio: 0.36
+Restoring model to original state...
+Model restored to original devices
+All hooks removed and model restored!
+🔬 Experiment: alternating
+------------------------------
